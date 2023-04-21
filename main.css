@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    width: 1440px;
+    height: auto;
+}
+.intro{
+    margin-left: 100px;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.header{
+    font-style: normal;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 100px;
+}
+#articles {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: 50px;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+}
+.news-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background: #F1F1F1;
+    padding: 0px 0px 36px;
+}
+.left-border{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+}
+.top-border{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+.fontinter {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.fontinter2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.5;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: auto;
+    padding: 0px;
+    gap: 24px;
+}
+.news-article{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+.news-body{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.buttom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.brief-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: none;
+    gap: 8px
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+}
+.picture{
+    width: 265px;
+    height: 265px;
+    min-width: 265px;
+    min-height: 265px;
+    border-radius: 4px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 52px;
+    margin-right: 50px;
+}
+
+
+.sec-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 248px;
+    font-family: 'Kanit',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+    margin-left: 100px;
+}
+
+.full-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 70px;
+    
+}
+.second-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.second-top2{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    margin-left: 100px;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 64px;
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.share2{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 50px;
+    gap: 20px;
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 100px;
+}
+.subheader{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.img-text{
+    width: 1120px;
+    height: 480px;
+    min-width: 1120px;
+    min-height: 480px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.buttom2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 100px;
+}
+.social{
+    display: flex;
+    justify-content: row;
+    gap: 12px;
+    
+}
